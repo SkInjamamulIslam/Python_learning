@@ -1,0 +1,56 @@
+Git A to Z
+
+pwd => Check which directory u are currently in
+mkdir folder_name  => To create folder in working directory.
+ls => Show all folders of that directory.
+ls -a => To show the hidden file
+cd folder_name => To enter into folder.
+touch file.blade.php => To create a file.
+cd .. => Back to previous folder
+rm -rf folder_name => To delete directory.
+
+
+git init => Git initialize
+git clone URL => Cloning from github repository
+git status => Summary of changes u have done.
+git diff => To check the difference in staging.
+git add --all / git add -A => To stage all the changes from working directory.
+git add . => To stage all the things in that current directory u are now.
+git add * => To stage all the things except deleted things.
+git add folder_name/file_name =>To stage specific file
+git add *.extension_name => To stage all the files of that extension.
+git commit -m "commit_message" => To upload files from stage to Local Repository.
+
+git restore => Restore from staging to working directory as same
+git reset => Undo all changes from staging to working directory.
+git reset HEAD~ => To rollback from local repository to working directory
+git reset --hard => To rollback the deleted files also
+git checkout => To undo tcommit
+
+
+git rm file_name => Delete and staged at a time
+git rm file_name -f => To forcefully Delete the file
+git --cached file_name => I want to stage the changed file but not remove it from my working directory.
+git rm -r folder_name => Will remove all the files and directories of that folder recursively.
+
+//Branching
+git branch => Currently how many branch are here and the star mark will show in which branch now i am in
+git branch branch_name => To create new branch
+git checkout branch_name => To switch to another branch.
+git merge branch_name(with which i want to merge my current branch) -m "commit_message" => To merge my current branch with another branch.
+
+//Local to Remote
+git remote => To check whether it is connected to any remote repository.
+git remote add origin(name) url => To connect your local repository to remote repository.
+git push -u origin main => Local repository to remote repository.
+git fetch => Remote repository to Local Repository.
+git merge => Local repository to working directory.
+git pull => git fetch + git merge
+git log/ git log --oneline => To check all commit status.
+
+
+
+
+Stage to set my mind change to share file.
+commit chages in github means save
+
